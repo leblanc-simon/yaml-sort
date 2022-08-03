@@ -1,0 +1,20 @@
+{
+    "name": "yaml-sort",
+    "version": "1.0.0",
+    "description": "Sort YAML files from directory",
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "js-yaml": "^4.1.0"
+    },
+    "bin": {
+        "yaml-sort": "index.js"
+    },
+    "repository": "https://github.com/leblanc-simon/yaml-sort.git",
+    "author": "Simon Leblanc <contact@leblanc-simon.eu>",
+    "license": "WTFPL",
+    "private": false,
+    "devDependencies": {
+        "eslint": "^8.21.0"
+    }
+}
